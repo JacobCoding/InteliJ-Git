@@ -9,7 +9,7 @@ public class Main {
         System.out.println("Print text 1");
 
 
-
+        System.out.println("123");
 
 
 
