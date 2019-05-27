@@ -12,6 +12,8 @@ public class Main {
         // feature A
 
         // feature-b
+
+        // Test after abort and rebase
     }
 
 }
