@@ -9,6 +9,7 @@ public class Main {
         // left after merging
         System.out.println("Home 1 commit");
 
+        // feature A
     }
 
 }
