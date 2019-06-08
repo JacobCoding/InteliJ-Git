@@ -1,12 +1,22 @@
-public class Main {
+import fyweight.Destroyer;
+import fyweight.Rifleman;
+import fyweight.TeslaTank;
 
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Print text");
-        System.out.println("Print text 1");
-        System.out.println("1235");
-        System.out.println("Home 1 commit");
+        List<Object> activeUnits = new ArrayList<Object>();
+        for (int i = 0; i < 100000; i++){
+
+            activeUnits.add(new TeslaTank(0,0));
+            activeUnits.add(new Rifleman(0,0));
+            activeUnits.add(new Destroyer(0,0));
+
+        }
 
     }
 
