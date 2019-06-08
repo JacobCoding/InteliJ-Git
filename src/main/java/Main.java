@@ -11,12 +11,12 @@ public class Main {
 
         List<Object> activeUnits = new ArrayList<Object>();
         for (int i = 0; i < 100000; i++){
-
             activeUnits.add(new TeslaTank(0,0));
             activeUnits.add(new Rifleman(0,0));
             activeUnits.add(new Destroyer(0,0));
 
         }
+
 
     }
 
